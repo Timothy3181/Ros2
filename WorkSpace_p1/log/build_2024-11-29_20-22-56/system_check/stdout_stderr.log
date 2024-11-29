@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target system_check[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/system_check.dir/src/system_check.cpp.o[0m
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:[m[K In constructor ‘[01m[Knode_of_system::node_of_system(const string&)[m[K’:
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:19:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   19 |             timer_ = this->create_wall_timer(1000ms, bind(&node_of_system[01;31m[K,[m[K timer_callback, this));
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:[m[K In member function ‘[01m[Kvoid node_of_system::timer_callback()[m[K’:
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:30:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   30 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:31:20:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_error sg_init(int)[m[K’
+   31 |             [01;31m[Ksg_init()[m[K;
+      |             [01;31m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[01m[K/usr/include/statgrab.h:130:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  130 | __sg_public sg_error [01;36m[Ksg_init[m[K(int ignore_init_errors);
+      |                      [01;36m[K^~~~~~~[m[K
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:32:55:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_cpu_stats* sg_get_cpu_stats(size_t*)[m[K’
+   32 |             sg_cpu_stats *cpu_stats = [01;31m[Ksg_get_cpu_stats()[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[01m[K/usr/include/statgrab.h:191:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  191 | __sg_public sg_cpu_stats *[01;36m[Ksg_get_cpu_stats[m[K(size_t *entries);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:33:55:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_mem_stats* sg_get_mem_stats(size_t*)[m[K’
+   33 |             sg_mem_stats *mem_stats = [01;31m[Ksg_get_mem_stats()[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[01m[K/usr/include/statgrab.h:227:27:[m[K [01;36m[Knote: [m[Kdeclared here
+  227 | __sg_public sg_mem_stats *[01;36m[Ksg_get_mem_stats[m[K(size_t *entries);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/system_check.dir/build.make:76: CMakeFiles/system_check.dir/src/system_check.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

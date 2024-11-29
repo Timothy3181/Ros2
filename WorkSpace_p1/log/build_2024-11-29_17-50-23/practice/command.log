@@ -1,0 +1,2 @@
+Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/practice': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pikachu/Documents/ros2/WorkSpace_p1/src/practice -DCMAKE_INSTALL_PREFIX=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice
+Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/practice' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pikachu/Documents/ros2/WorkSpace_p1/src/practice -DCMAKE_INSTALL_PREFIX=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice

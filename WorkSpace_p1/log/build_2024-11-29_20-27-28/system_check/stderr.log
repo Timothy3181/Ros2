@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/system_check.dir/src/system_check.cpp.o: in function `node_of_system::timer_callback()':
+system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x1e7): undefined reference to `sg_init'
+/usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x1f6): undefined reference to `sg_get_cpu_stats'
+/usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x20c): undefined reference to `sg_get_mem_stats'
+/usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x50a): undefined reference to `sg_shutdown'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/system_check.dir/build.make:159: system_check] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

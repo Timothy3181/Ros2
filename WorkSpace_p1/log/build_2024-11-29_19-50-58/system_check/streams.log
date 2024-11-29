@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check -DCMAKE_INSTALL_PREFIX=/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.212s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.579s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.583s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.591s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.734s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.789s] -- Looking for pthread.h
+[0.842s] -- Looking for pthread.h - found
+[0.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.904s] -- Found Threads: TRUE  
+[0.950s] -- Found practice: 0.0.0 (/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/share/practice/cmake)
+[0.963s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.025s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.025s] -- Configured cppcheck include dirs: 
+[1.025s] -- Configured cppcheck exclude dirs and/or files: 
+[1.026s] -- Added test 'lint_cmake' to check CMake code style
+[1.027s] -- Added test 'uncrustify' to check C / C++ code style
+[1.027s] -- Configured uncrustify additional arguments: 
+[1.028s] -- Added test 'xmllint' to check XML markup files
+[1.030s] -- Configuring done
+[1.037s] -- Generating done
+[1.038s] -- Build files have been written to: /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check
+[1.047s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '0': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check -DCMAKE_INSTALL_PREFIX=/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check
+[1.049s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[1.089s] [ 50%] [32mBuilding CXX object CMakeFiles/system_check.dir/src/system_check.cpp.o[0m
+[3.327s] [100%] [32m[1mLinking CXX executable system_check[0m
+[3.424s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.424s] (.text+0x1b): undefined reference to `main'
+[3.427s] collect2: error: ld returned 1 exit status
+[3.429s] gmake[2]: *** [CMakeFiles/system_check.dir/build.make:159: system_check] Error 1
+[3.429s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+[3.429s] gmake: *** [Makefile:146: all] Error 2
+[3.432s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '2': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16

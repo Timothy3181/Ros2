@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-43a0485596cc79f6d4f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "practice__py",
+					"jsonFile" : "directory-practice__py-Debug-494f175fefe72c43ae8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pikachu/Documents/ros2/WorkSpace_p1/build/practice__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "practice",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_practice_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_practice_egg-Debug-375fc36a902639bcc82f.json",
+					"name" : "ament_cmake_python_build_practice_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_practice-Debug-8aedb6d1ca3ab76fab8d.json",
+					"name" : "ament_cmake_python_copy_practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice-Debug-071bec95beab226fe4ee.json",
+					"name" : "practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__cpp-Debug-61805be6d780de8d0d47.json",
+					"name" : "practice__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "practice__py::@1723e3cca8de16338e1c",
+					"jsonFile" : "target-practice__py-Debug-20f0724631d5d6353015.json",
+					"name" : "practice__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_generator_c-Debug-4fea2bba7ac29b39f541.json",
+					"name" : "practice__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_generator_py-Debug-c454fc4055a0bb9271d3.json",
+					"name" : "practice__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_c-Debug-40cc81ede635d705fa31.json",
+					"name" : "practice__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_c__pyext-Debug-7cc106d4e878df745983.json",
+					"name" : "practice__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_cpp-Debug-2bfc358afb6a7b0dd9d1.json",
+					"name" : "practice__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_fastrtps_c-Debug-6b0f7063b7619b08105b.json",
+					"name" : "practice__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_fastrtps_c__pyext-Debug-762d09b3aa6c4eeb62d5.json",
+					"name" : "practice__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_fastrtps_cpp-Debug-bb4be49c662dc833fcad.json",
+					"name" : "practice__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_introspection_c-Debug-1f8990faddfd5c6061b5.json",
+					"name" : "practice__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_introspection_c__pyext-Debug-3aaf430580c4b5eaeb12.json",
+					"name" : "practice__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice__rosidl_typesupport_introspection_cpp-Debug-ac6f3a07ca2cab8a5125.json",
+					"name" : "practice__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practice_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practice_uninstall-Debug-d9f4e55d3253fafae841.json",
+					"name" : "practice_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-083ef37a66d4a96438e9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pikachu/Documents/ros2/WorkSpace_p1/build",
+		"source" : "/home/pikachu/Documents/ros2/WorkSpace_p1/src/practice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

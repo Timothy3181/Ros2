@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check:/opt/ros/humble /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target system_check[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/system_check.dir/src/system_check.cpp.o[0m
+[3.433s] [100%] [32m[1mLinking CXX executable system_check[0m
+[3.579s] [100%] Built target system_check
+[3.590s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '0': CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check:/opt/ros/humble /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[3.610s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check:/opt/ros/humble /usr/bin/cmake --install /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check
+[3.616s] -- Install configuration: ""
+[3.616s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/ament_index/resource_index/package_run_dependencies/system_check
+[3.616s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/ament_index/resource_index/parent_prefix_path/system_check
+[3.616s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/environment/ament_prefix_path.sh
+[3.616s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/environment/ament_prefix_path.dsv
+[3.616s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/environment/path.sh
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/environment/path.dsv
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/local_setup.bash
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/local_setup.sh
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/local_setup.zsh
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/local_setup.dsv
+[3.617s] -- Installing: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/package.dsv
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/ament_index/resource_index/packages/system_check
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/cmake/system_checkConfig.cmake
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/cmake/system_checkConfig-version.cmake
+[3.617s] -- Up-to-date: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/share/system_check/package.xml
+[3.617s] -- Installing: /home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/lib/system_check/system_check
+[3.617s] -- Set runtime path of "/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check/lib/system_check/system_check" to ""
+[3.619s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '0': CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/home/pikachu/Documents/ros2/WorkSpace_p1/install/system_check:/opt/ros/humble /usr/bin/cmake --install /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check

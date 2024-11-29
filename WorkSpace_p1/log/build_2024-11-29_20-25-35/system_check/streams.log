@@ -1,0 +1,11 @@
+[0.007s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target system_check[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/system_check.dir/src/system_check.cpp.o[0m
+[1.802s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:[m[K In member function ‘[01m[Kvoid node_of_system::timer_callback()[m[K’:
+[1.802s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:30:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.802s]    30 |             [01;31m[K}[m[K
+[1.802s]       |             [01;31m[K^[m[K
+[2.517s] gmake[2]: *** [CMakeFiles/system_check.dir/build.make:76: CMakeFiles/system_check.dir/src/system_check.cpp.o] Error 1
+[2.517s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+[2.517s] gmake: *** [Makefile:146: all] Error 2
+[2.520s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '2': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16

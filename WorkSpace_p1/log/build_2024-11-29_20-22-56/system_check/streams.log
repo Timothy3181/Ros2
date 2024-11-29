@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target system_check[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/system_check.dir/src/system_check.cpp.o[0m
+[2.115s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:[m[K In constructor ‘[01m[Knode_of_system::node_of_system(const string&)[m[K’:
+[2.115s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:19:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[2.115s]    19 |             timer_ = this->create_wall_timer(1000ms, bind(&node_of_system[01;31m[K,[m[K timer_callback, this));
+[2.115s]       |                                                                          [01;31m[K^[m[K
+[2.116s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:[m[K In member function ‘[01m[Kvoid node_of_system::timer_callback()[m[K’:
+[2.116s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:30:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.116s]    30 |             [01;31m[K}[m[K
+[2.116s]       |             [01;31m[K^[m[K
+[2.116s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:31:20:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_error sg_init(int)[m[K’
+[2.116s]    31 |             [01;31m[Ksg_init()[m[K;
+[2.116s]       |             [01;31m[K~~~~~~~^~[m[K
+[2.116s] In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[2.116s] [01m[K/usr/include/statgrab.h:130:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.116s]   130 | __sg_public sg_error [01;36m[Ksg_init[m[K(int ignore_init_errors);
+[2.116s]       |                      [01;36m[K^~~~~~~[m[K
+[2.116s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:32:55:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_cpu_stats* sg_get_cpu_stats(size_t*)[m[K’
+[2.116s]    32 |             sg_cpu_stats *cpu_stats = [01;31m[Ksg_get_cpu_stats()[m[K;
+[2.116s]       |                                       [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[2.116s] In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[2.116s] [01m[K/usr/include/statgrab.h:191:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.116s]   191 | __sg_public sg_cpu_stats *[01;36m[Ksg_get_cpu_stats[m[K(size_t *entries);
+[2.116s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:33:55:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Ksg_mem_stats* sg_get_mem_stats(size_t*)[m[K’
+[2.116s]    33 |             sg_mem_stats *mem_stats = [01;31m[Ksg_get_mem_stats()[m[K;
+[2.117s]       |                                       [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[2.117s] In file included from [01m[K/home/pikachu/Documents/ros2/WorkSpace_p1/src/system_check/src/system_check.cpp:3[m[K:
+[2.117s] [01m[K/usr/include/statgrab.h:227:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.117s]   227 | __sg_public sg_mem_stats *[01;36m[Ksg_get_mem_stats[m[K(size_t *entries);
+[2.117s]       |                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.795s] gmake[2]: *** [CMakeFiles/system_check.dir/build.make:76: CMakeFiles/system_check.dir/src/system_check.cpp.o] Error 1
+[2.795s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+[2.795s] gmake: *** [Makefile:146: all] Error 2
+[2.799s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '2': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16

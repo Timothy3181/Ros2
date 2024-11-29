@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "practice__py",
+		"source" : "/home/pikachu/Documents/ros2/WorkSpace_p1/build/practice__py"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "practice",
+  "non_idl_tuples": [
+    "/home/pikachu/Documents/ros2/WorkSpace_p1/src/practice:msg/SystemStatus.msg"
+  ]
+}

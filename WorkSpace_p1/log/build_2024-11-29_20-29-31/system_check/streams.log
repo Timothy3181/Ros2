@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
+[0.050s] [ 50%] [32m[1mLinking CXX executable system_check[0m
+[0.173s] /usr/bin/ld: CMakeFiles/system_check.dir/src/system_check.cpp.o: in function `node_of_system::timer_callback()':
+[0.173s] system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x1e7): undefined reference to `sg_init'
+[0.173s] /usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x1f6): undefined reference to `sg_get_cpu_stats'
+[0.173s] /usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x20c): undefined reference to `sg_get_mem_stats'
+[0.173s] /usr/bin/ld: system_check.cpp:(.text._ZN14node_of_system14timer_callbackEv[_ZN14node_of_system14timer_callbackEv]+0x50a): undefined reference to `sg_shutdown'
+[0.189s] collect2: error: ld returned 1 exit status
+[0.191s] gmake[2]: *** [CMakeFiles/system_check.dir/build.make:159: system_check] Error 1
+[0.191s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/system_check.dir/all] Error 2
+[0.191s] gmake: *** [Makefile:146: all] Error 2
+[0.194s] Invoked command in '/home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check' returned '2': AMENT_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice:/opt/ros/humble LD_LIBRARY_PATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pikachu/Documents/ros2/WorkSpace_p1/install/practice/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pikachu/Documents/ros2/WorkSpace_p1/build/system_check -- -j16 -l16
